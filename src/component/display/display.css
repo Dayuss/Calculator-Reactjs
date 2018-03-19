@@ -1,0 +1,16 @@
+.displayContainer{
+  background-color: #616161;
+  color: #fff;
+  text-align: right;
+  font-weight: 200;
+  width: 100%
+}
+.mainDisplay{
+  font-size: 70px;
+  padding: 20px 22px 0 10px
+}
+@media only screen and (max-width: 768px) {
+  .mainDisplay {
+    font-size: 50px;
+  }
+}
